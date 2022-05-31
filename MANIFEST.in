@@ -1,0 +1,2 @@
+recursive-include cdu_pins/templates *
+recursive-include cdu_pins/static *

@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>CDU Backplane Viewer</title>
+        <link rel="stylesheet" href="static/pin_inspector.css">
+        <script src="static/pin_inspector.js"></script>
+        <script src="static/svg-pan-zoom.js"></script>
+        <script type="text/javascript">
+            var inspectors;
+            var active = 'x';
+
+            function setup_trays() {
+                inspectors = {
+                    "x": new PinInspector(document.getElementById('tray_x')),
+                };
+                svgPanZoom('#tray_x', {zoomEnabled: true, controlIconsEnabled: true});
+            }
+
+            function locate_net() {
+                var net_text = document.getElementById("net_text");
+                net_text.blur();
+                inspectors[active].locate_net(net_text.value);
+                return false;
+            }
+
+        </script>
+    </head>
+    <body onload="setup_trays();">
+        <div class="top_bar">
+            <div class="title">CDU Backplane Viewer</div>
+        </div>
+        <div class="contents">
+            <div id="tab_a" class="display active">
+                <object id="tray_x" type="image/svg+xml" data="static/cdu_tray_x.svg">
+                    Your browser does not support SVG
+                </object>
+            </div>
+            <div class="info_box">
+                <div class="pin_info">
+                    <div class="info_header">
+                        Connector
+                    </div>
+                    <div id="conn_text" class="info_text">
+                        -
+                    </div>
+                </div>
+                <div class="pin_info">
+                    <div class="info_header">
+                        Pin
+                    </div>
+                    <div id="pin_text" class="info_text">
+                        -
+                    </div>
+                </div>
+                <div class="io_info">
+                    <div class="info_header">
+                        I/O Type
+                    </div>
+                    <div class="info_text" id="io_text">
+                        -
+                    </div>
+                </div>
+                <div class="net_info">
+                    <div class="info_header">
+                        Net
+                    </div>
+                    <form action="#" name="net_form" onsubmit="return locate_net()" >
+                        <input name="net" id="net_text" class="info_text" value="-" autocomplete="off" />
+                        <input type="submit" style="visibility:hidden;" />
+                    </form>
+                    <div class="net_desc" id="desc_text">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
