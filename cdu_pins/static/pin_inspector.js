@@ -229,7 +229,7 @@ function PinInspector(tray) {
 
         get_selected_intertray_pin : function() {
             for (let p of connected_pins) {
-                if (p.id.match(/[AB]6[1-3]/)) {
+                if (p.id.match(/[XS]51/)) {
                     return p.id;
                 }
             }
