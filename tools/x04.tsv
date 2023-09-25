@@ -1,0 +1,64 @@
+101	+4VHI	Out	+4VDC				
+102	+4VHI	Out	+4VDC	202	+4VTP	Out	Test Point
+103	+4VHI	Out	+4VDC	203		Spare	
+104	+4VHI	Out	+4VDC	204	+4VLO	Out	+4VDC Return
+105	+4VHI	Out	+4VDC	205	+4VLO	Out	+4VDC Return
+106	+4VHI	Out	+4VDC	206	+4VLO	Out	+4VDC Return
+107	+4VHI	Out	+4VDC	207	+4VLO	Out	+4VDC Return
+108	+4VHI	Out	+4VDC	208	+4VLO	Out	+4VDC Return
+109	+4VHI	Out	+4VDC	209	+4VLO	Out	+4VDC Return
+110	+4VHI	Out	+4VDC	210	+4VLO	Out	+4VDC Return
+111	+4VHI	Out	+4VDC	211	+4VLO	Out	+4VDC Return
+112	+4VHI	Out	+4VDC	212	+4VLO	Out	+4VDC Return
+113	+4VHI	Out	+4VDC	213	+4VLO	Out	+4VDC Return
+114	+4VHI	Out	+4VDC	214	+4VLO	Out	+4VDC Return
+115		Spare		215	+4VLO	Out	+4VDC Return
+116		Spare		216	+4VLO	Out	+4VDC Return
+117		Spare		217	+4VLO	Out	+4VDC Return
+118		Spare		218	+4VLO	Out	CDU 0VDC
+119		Spare		219	+4VLO	Out	CDU 0VDC
+120		Spare		220	+4VLO	Out	CDU 0VDC
+121		Spare		221		Spare	
+122		Spare		222	K+28VH	Out	LEM +28VDC
+123		Spare		223	K+28VH	Out	LEM +28VDC
+124		Spare		224	K+28VH	Out	LEM +28VDC
+125		Spare		225	K+28VH	Out	LEM +28VDC
+126		Spare		226		Spare	
+127		Spare		227	_CHASS	In	Structure Ground
+128		Spare		228	O+28VH	In	Optics +28VDC
+129		Spare		229	O+28VH	In	Optics +28VDC
+130		Spare		230	O+28VH	In	Optics +28VDC
+131	U+28VH	In	IMU +28VDC	231	O+28VH	In	Optics +28VDC
+132	U+28VH	In	IMU +28VDC	232	25KPSL	In	Sync 25.6 KC
+133	U+28VH	In	IMU +28VDC	233	25KPSH	In	Sync 25.6 KC
+134	U+28VH	In	IMU +28VDC	243		Spare	
+142		Spare		244		Spare	
+143		Spare		245	PTEMPH	BP	
+144		Spare		246		Spare	
+145		Spare		247		Spare	
+146		Spare		248		Spare	
+147		Spare		249		Spare	
+148		Spare		250	TEMPL	BP	
+149		Spare		251		Spare	
+150		Spare		252		Spare	
+151		Spare		253		Spare	
+152		Spare		254		Spare	
+153		Spare		255		Spare	
+154		Spare		256		Spare	
+155		Spare		257		Spare	
+156		Spare		258		Spare	
+157		Spare		259		Spare	
+158		Spare		260		Spare	
+159		Spare		261		Spare	
+160		Spare		262		Spare	
+161		Spare		263		Spare	
+162		Spare		264		Spare	
+163		Spare		265		Spare	
+164		Spare		266		Spare	
+165		Spare		267		Spare	
+166		Spare		268		Spare	
+167		Spare		269		Spare	
+168		Spare		270		Spare	
+169		Spare					
+170		Spare					
+171		Spare					

@@ -1,0 +1,71 @@
+101		Spare		201		Spare	
+102		Spare		202		Spare	
+103		Spare		203		Spare	
+104		Spare		204		Spare	
+105		Spare		205		Spare	
+106		Spare		206		Spare	
+107		Spare		207	_FCOSL	In	Cos input lo
+108		Spare		208	_+28VH	In	+28VDC
+109	_+28VH	In	+28 VDC	209	_FCOSH	In	Cos Θ
+110	_D4	In	D4	210	_SIGGR	In	Signal ground
+111		Spare		211	_S4COS	Out	S4 cos Θ
+112	_D3	In	D3	212	_S3COS	Out	S3 cos Θ
+113	_D2	In	D2	213		Spare	
+114		Spare		214	_S2COS	Out	S2 cos Θ
+115		Spare		215	_S1COS	Out	S1 cos Θ
+116	_D1	In	D1	216	_QTPB	NC	
+117		Spare		217	_1125B	In	S12 11.25°
+118		Spare		218	_QTPC	NC	
+119		Spare		219	_S2COS	In	S2 cos Θ
+120	_D7	In	D7	220	_S3COS	In	S3 cos Θ
+121		Spare		221		Spare	
+122	_D8	In	D8	222	_S1COS	In	S1 cos Θ
+123		Spare		223	_S4COS	In	S4 cos Θ
+124	_D11	In	D11	224		Spare	
+125		Spare		225	_QJMPB	Out	
+126		Spare		226	_QJMPC	In	
+127	_D10	In	D10	227	_S10	Out	
+128		Spare		228	_S13	In	
+129		Spare		229	_BIASA	Out	S10 ΔK
+130		Spare		230	_1125A	Out	S9 11.25°
+131	_D9	In	D9	231		Spare	
+132		Spare		232	_QJMPB	In	
+133	_D14	In	D14	233	_QJMPC	Out	
+134	_D13	In	D13	234	_S13	Out	
+135		Spare		235	_S10	In	
+136		Spare		236	_S4SIN	In	S4 sin Θ
+137		Spare		237	_BIASB	Out	S13 ΔK
+138	_D12	In	D12	238	_1125B	Out	S12 11.25°
+139		Spare		239	_S3SIN	In	S3 sin Θ
+140	_SIGGR	In	Ladder amp lo to MSA	240	_S2SIN	In	S2 sin Θ
+141		Spare		241		Spare	
+142		Spare		242		Spare	
+143		Spare		243		Spare	
+144		Spare		244		Spare	
+145		Spare		245		Spare	
+146		Spare		246		Spare	
+147		Spare		247		Spare	
+148		Spare		248		Spare	
+149	_+28VH	In	+28VDC	249		Spare	
+150	_D6	In	D6	250	_SIGGR	In	Ladder amp lo from Quad Sel
+151	_CHASS	In	Structure ground	251	_S1SIN	In	S1 sin Θ
+152	_D5	In	D5	252	_QJMPA	In	
+153		Spare		253	_QTPA	NC	
+154	_D1	In	D1	254		Spare	
+155		Spare		255	_QJMPA	Out	
+156		Spare		256	_S1SIN	Out	S1 sin Θ
+157	_D2	In	D2	257		Spare	
+158		Spare		258	_S2SIN	Out	S2 sin Θ
+159	_D3	In	D3	259	_S3SIN	Out	S3 sin Θ
+160		Spare		260	_LCQM	In	Logic ground
+161		Spare		261	_S4SIN	Out	S4 sin Θ
+162	_D4	In	D4	262	_FSINH	In	Sin Θ
+163	_SIGGR	In	Signal ground	263	_QJMPA	In	
+164		Spare		264	_FSINL	In	Sin input lo
+165		Spare		265	_+28VH	In	+28 VDC
+166		Spare		266		Spare	
+167		Spare		267		Spare	
+168		Spare		268		Spare	
+169		Spare		269		Spare	
+170		Spare		270		Spare	
+171		Spare		271		Spare	

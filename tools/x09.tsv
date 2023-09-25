@@ -1,0 +1,71 @@
+101	_TLF2L	Out	High ternary level	201	_TLF1L	Out	Fine ternary level
+102	_MJMPH	In		202	_TLF1H	Out	Fine ternary level
+103	_MJMPA	In		203	_TLF2H	Out	High ternary level
+104		Spare		204		Spare	
+105		Spare		205		Spare	
+106		Spare		206		Spare	
+107	_MJMPJ	In		207	_+28VH	In	+28 VDC
+108		Spare		208	_SIGGR	In	
+109	_CSRFH	Out	cos(Θ-Ψ) ∠90°	209	_SIGGR	In	Sig ground
+110	_CSRFL	Out (TRUN) | NC (SHFT) | NC (IMU)	cos(Θ-Ψ) ∠90° | cos(Θ-Ψ) ∠90° | UNK	210	_MTPB	NC	
+111		Spare		211		Spare	
+112		Spare		212		Spare	
+113		Spare		213		Spare	
+114		Spare		214		Spare	
+115		Spare		215		Spare	
+116		Spare		216		Spare	
+117		Spare		217		Spare	
+118		Spare		218		Spare	
+119		Spare		219		Spare	
+120		Spare		220		Spare	
+121		Spare		221		Spare	
+122		Spare		222		Spare	
+123		Spare		223		Spare	
+124		Spare		224		Spare	
+125		Spare		225		Spare	
+126	_SIGGR	In	Sig ground	226		Spare	
+127	_MJMPJ	Out		227		Spare	
+128	_MJMPI	In		228	_MJMPG	In (IMU/RR/SHFT) | NC (TRUN)	Connect for IMU/RR
+129	_MJMPG	Out (IMU/RR/SHFT) | NC (TRUN)	Connect for IMU/RR	229	_MTPC	NC	
+130	_FINER	Out	Fine error to D/A Converter	230	_+28VH	In	+28 VDC
+131	_MJMPH	Out		231		Spare	
+132	_MJMPI	Out		232		Spare	
+133	_S1COS	In	S1 cos Θ	233	_SIGGR	In	Sig ground
+134	_S2COS	In	S2 cos Θ	234		Spare	
+135	_MJMPD	In		235	_MTPA	Out	
+136	_S4COS	In	S4 cos Θ	236		Spare	
+137	_S3COS	In	S3 cos Θ	237		Spare	
+138	_S1SIN	In	S1 sin Θ	238		Spare	
+139	_S2SIN	In	S2 sin Θ	239		Spare	
+140	_S3SIN	In	S3 sin Θ	240		Spare	
+141	_S4SIN	In	S4 sin Θ	241		Spare	
+142	_1125A	In	S9 11.25°	242		Spare	
+143	_1125B	In	S12 11.25°	243	_SIGGR	In	Sig ground
+144	_MJMPC	In		244	_SIGGR	In	Input lo
+145	_MJMPB	In		245		Spare	
+146	_MJMPF	In		246		Spare	
+147	_MJMPE	In		247		Spare	
+148	_BIASA	In	S10 ΔK	248		Spare	
+149	_BIASB	In	S13 ΔK	249		Spare	
+150	_D22	In	D22	250	_SIGGR	In	
+151	_MJMPK	In		251	_LCMM	In	Logic ground
+152	_D20	In	D20	252	_+28VH	In	+28 VDC
+153	_D21	In	D21	253		Spare	
+154	_D18	In	D18	254		Spare	
+155	_D16	In	D16	255	_+28VH	In	+28 VDC
+156	_D19	In	D19	256	_LCMM	In	Logic ground
+157	_MJMPK	In		257		Spare	
+158	_MJMPC	Out		258		Spare	
+159	_MJMPF	Out		259		Spare	
+160	_MJMPE	Out		260	_SIGGR	In	
+161		Spare		261	_+28VH	In	+28 VDC
+162	_MJMPK	Out		262	_LCMM	In	Logic ground
+163	_D15	In	D15	263	_MJMPA	Out	
+164	_MJMPB	Out		264	_SIGGR	In	
+165	_D17	In	D17	265	_MJMPD	Out	
+166	_1125B	In		266		Spare	
+167	_1125A	In		267		Spare	
+168	_+28VH	In	+28 VDC	268		Spare	
+169	_S10	In		269		Spare	
+170	_S13	In		270	_CHASS	In	Structure ground
+171	_SIGGR	In	Input lo	271		Spare	

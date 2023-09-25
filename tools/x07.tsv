@@ -1,0 +1,71 @@
+101	_ADHI | 	Out (IMU/RR) | Spare (OPTX)	Ambiguity detect | 	201		Spare	
+102	_ADLO | 	Out (IMU/RR) | Spare (OPTX)	Ambiguity detect | 	202		Spare	
+103	_CJMPF | 	In (IMU/RR) | Spare (OPTX)	Signal ground | 	203		Spare	
+104		Spare		204		Spare	
+105		Spare		205		Spare	
+106		Spare		206		Spare	
+107		Spare		207	_CJMPB | 	In (IMU/RR) | Spare (OPTX)	
+108		Spare		208		Spare	
+109		Spare		209		Spare	
+110		Spare		210		Spare	
+111	_TLC1H | 	Out (IMU/RR) | Spare (OPTX)	Coarse ternary level | 	211		Spare	
+112	_TLC1L | 	Out (IMU/RR) | Spare (OPTX)	Coarse ternary level | 	212		Spare	
+113		Spare		213		Spare	
+114		Spare		214		Spare	
+115		Spare		215		Spare	
+116		Spare		216	_CTPA | 	Out (IMU/RR) | Spare (OPTX)	Coarse error T.P. | 
+117		Spare		217	_CRSER | 	Out (IMU/RR) | Spare (OPTX)	Coarse error to D/A Converter | 
+118	_+28VH | 	In (IMU/RR) | Spare (OPTX)	+28VDC | 	218		Spare	
+119		Spare		219		Spare	
+120	_SIGGR | 	In (IMU/RR) | Spare (OPTX)	Input lo | 	220		Spare	
+121		Spare		221		Spare	
+122	_LCCM | 	In (IMU/RR) | Spare (OPTX)	Logic ground | 	222		Spare	
+123		Spare		223	_DC12 | 	In (IMU/RR) | Spare (OPTX)	DC12 | 
+124		Spare		224		Spare	
+125		Spare		225		Spare	
+126		Spare		226	_DC11 | 	In (IMU/RR) | Spare (OPTX)	DC11 | 
+127		Spare		227		Spare	
+128		Spare		228		Spare	
+129		Spare		229	_DC10 | 	In (IMU/RR) | Spare (OPTX)	DC10 | 
+130		Spare		230		Spare	
+131		Spare		231	_CJMPE | 	In (IMU/RR) | Spare (OPTX)	
+132		Spare		232	_DC9 | 	In (IMU/RR) | Spare (OPTX)	DC9 | 
+133		Spare		233	_CJMPD | 	In (IMU/RR) | Spare (OPTX)	
+134		Spare		234	_DC8 | 	In (IMU/RR) | Spare (OPTX)	DC8 | 
+135		Spare		235		Spare	
+136		Spare		236		Spare	
+137		Spare		237	_DC7 | 	In (IMU/RR) | Spare (OPTX)	DC7 | 
+138		Spare		238		Spare	
+139		Spare		239	_CJMPC | 	In (IMU/RR) | Spare (OPTX)	
+140		Spare		240	_DC6 | 	In (IMU/RR) | Spare (OPTX)	DC6 | 
+141		Spare		241		Spare	
+142		Spare		242	_DC5 | 	In (IMU/RR) | Spare (OPTX)	DC5 | 
+143		Spare		243		Spare	
+144		Spare		244	_CJMPA | 	In (IMU/RR) | Spare (OPTX)	
+145		Spare		245	_DC4 | 	In (IMU/RR) | Spare (OPTX)	DC4 | 
+146		Spare		246		Spare	
+147		Spare		247		Spare	
+148		Spare		248	_DC3 | 	In (IMU/RR) | Spare (OPTX)	DC3 | 
+149		Spare		249		Spare	
+150		Spare		250	_DC2 | 	In (IMU/RR) | Spare (OPTX)	DC2 | 
+151		Spare		251		Spare	
+152		Spare		252		Spare	
+153		Spare		253	_DC1 | 	In (IMU/RR) | Spare (OPTX)	DC1 | 
+154		Spare		254		Spare	
+155		Spare		255		Spare	
+156		Spare		256		Spare	
+157	_CAGEH | _CAGEH | 	Out (IMU) | NC (RR) | Spare (OPTX)	IMU cage signal | IMU cage signal | 	257		Spare	
+158	_CAGEL | _CAGEL | 	Out (IMU) | NC (RR) | Spare (OPTX)	IMU 0V | IMU 0V | 	258		Spare	
+159	_CSINL | 	In (IMU/RR) | Spare (OPTX)	1X resolver sin Θ | 	259		Spare	
+160	_CSINH | 	In (IMU/RR) | Spare (OPTX)	1X resolver sin Θ | 	260	TEMPL	BP	
+161	_CJMPB | 	Out (IMU/RR) | Spare (OPTX)		261		Spare	
+162	_CJMPA | 	Out (IMU/RR) | Spare (OPTX)		262		Spare	
+163	_CJMPC | 	Out (IMU/RR) | Spare (OPTX)		263		Spare	
+164	_CJMPF | 	Out (IMU/RR) | Spare (OPTX)	Signal ground | 	264		Spare	
+165	_CCOSL | 	In (IMU/RR) | Spare (OPTX)	1X resolver cos Θ | 	265	_TEMPH	BP	
+166	_CCOSH | 	In (IMU/RR) | Spare (OPTX)	1X resolver cos Θ | 	266		Spare	
+167	_CJMPD | 	Out (IMU/RR) | Spare (OPTX)		267		Spare	
+168	_CJMPE | 	Out (IMU/RR) | Spare (OPTX)		268		Spare	
+169	_28RFL | 	In (IMU/RR) | Spare (OPTX)	28V 800~ 1% ref | 	269		Spare	
+170	_28RFH | 	In (IMU/RR) | Spare (OPTX)	28V 800~ 1% ref | 	270		Spare	
+171	_CHASS | 	In (IMU/RR) | Spare (OPTX)	Structure ground | 	271		Spare	

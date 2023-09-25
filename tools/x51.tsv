@@ -1,0 +1,71 @@
+101	AT+PGH	Out	Inner Gimbal +ΔΘG hi to AGC	201	AT+PGL	Out	Inner Gimbal +ΔΘG lo to AGC	301		Spare	
+102	AT-PGH	Out	Inner Gimbal -ΔΘG hi to AGC	202	AT-PGL	Out	Inner Gimbal -ΔΘG lo to AGC	302		Spare	
+103	BT+PGH	Out	Middle Gimbal +ΔΘG hi to AGC	203	BT+PGL	Out	Middle Gimbal +ΔΘG lo to AGC	303		Spare	
+104	BT-PGH	Out	Middle Gimbal -ΔΘG hi to AGC	204	BT-PGL	Out	Middle Gimbal -ΔΘG lo to AGC	304		Spare	
+105	CT+PGH	Out	Outer Gimbal +ΔΘG hi to AGC	205	CT+PGL	Out	Outer Gimbal +ΔΘG lo to AGC	305		Spare	
+106	CT-PGH	Out	Outer Gimbal -ΔΘG hi to AGC	206	CT-PGL	Out	Outer Gimbal -ΔΘG lo to AGC	306		Spare	
+107	AF+PCH	In	Inner Gimbal +ΔΘC hi from AGC	207	AF+PCL	In	Inner Gimbal +ΔΘC lo from AGC	307	AF-PCH	In	Inner Gimbal -ΔΘC hi from AGC
+108	AF-PCL	In	Inner Gimbal -ΔΘC lo from AGC	208	BF+PCH	In	Middle Gimbal +ΔΘC hi from AGC	308	BF+PCL	In	Middle Gimbal +ΔΘC lo from AGC
+109	BF-PCH	In	Middle Gimbal -ΔΘC hi from AGC	209	BF-PCL	In	Middle Gimbal -ΔΘC lo from AGC	309	CF+PCH	In	Outer Gimbal +ΔΘC hi from AGC
+110	CF+PCL	In	Outer Gimbal +ΔΘC lo from AGC	210	CF-PCH	In	Outer Gimbal -ΔΘC hi from AGC	310	CF-PCL	In	Outer Gimbal -ΔΘC lo from AGC
+111		Spare		211		Spare		311		Spare	
+112	ISSIHI	In	ISS Interrogate to ISS EC&L modules	212	ISSILO	In	ISS Interrogate to ISS EC&L modules	312	ISSI2H	In	I2 ISS To EC&L Modules
+113	ISSI2L	In	I2 ISS To EC&L Modules	213	ISSI3H	In	I3 ISS To EC&L Modules	313	ISSI3L	In	I3 ISS To EC&L Modules
+114	FAZ1HI	In	Φ1 To EC&L Modules	214	FAZ1LO	In	Φ1 lo to EC&L Modules	314	FAZ2HI	In	Φ2 hi to EC&L Modules
+115	FAZ2LO	In	Φ2 lo to EC&L Modules	215	FAZ2HI/	In	Φ2/ hi to EC&L and Read Counter Modules	315	FAZ2LO/	In	Φ2/ lo to EC&L and Read Counter Modules
+116	FAZ3HI	In	Φ3 hi To EC&L and Read Counter Modules	216	FAZ3LO	In	Φ3 lo to EC&L and Read Counter Modules	316	FAZ4CA	In	12.8k pps Φ4 Coarse Align to EC&L Modules
+117	FAZ4LO	In	12.8k pps Φ4 lo to EC&L Modules	217	800LHI	In	800 PPS Φ4L to EC&L Modules	317	800LLO	In	800 PPS Φ4L to EC&L Modules
+118	UREF1H	In	Ref ∠0° hi to ISS EC&L Modules	218	UREF1L	In	Ref ∠0° lo to ISS EC&L Modules	318	UINHRC	In	Inhibit Read Counter to EC&L Modules
+119	AAO	In	Ambiguity Override to I.G. EC&L Module	219	BAO	In	Ambiguity Override to M.G. EC&L Module	319	CAO	In	Outer Ambiguity Override to O.G. EC&L Module
+120	ACA	In	Inner Coarse Align to I.G. EC&L Module	220	BCA	In	Middle Coarse Align to M.G. EC&L Module	320	CCA	In	Outer Coarse Align to O.G. EC&L Module
+121	AEEC	In	Enable Error Counter E to I.G. EC&L Module	221	BEEC	In	Enable Error Counter E to M.G. EC&L Module	321	CEEC	In	Enable Error Counter E to O.G. EC&L Module
+122	AQ	In	Turn On Enable to I.G. Read Counter Module	222	BQ	In	Turn On Enable to M.G. Read Counter Module	322	CQ	In	Outer Turn On Enable to O.G. Read Counter Module
+123	ACDUZ	In	ISS CDU Zero (Z) to I.G. Read Counter Module	223	BCDUZ	In	ISS CDU Zero (Z) to M.G. Read Counter Module	323	CCDUZ	In	ISS CDU Zero (Z) to O.G. Read Counter Module
+124	ARSETB	Out	Inner Ambiguity Reset B from Read Counter Module	224	BRSETB	Out	Middle Ambiguity Reset B from Read Counter Module	324	CRSETB	Out	Outer Ambiguity Reset B from Read Counter Module
+125	AADHI	Out	Inner Ambiguity Detect from Coarse Module	225	AADLO	Out	Inner Ambiguity Detect from Coarse Module	325	BADHI	Out	Middle Ambiguity Detect from Coarse Module
+126	BADLO	Out	Middle Ambiguity Detect from Coarse Module	226	CADHI	Out	Outer Ambiguity Detect from Coarse Module	326	CADLO	Out	Outer Ambiguity Detect From Coarse Module
+127		Spare		227		Spare		327		Spare	
+128		Spare		228	AFINER	Out	Inner Fine Error from I.G. MSA&QR Module	328	BFINER	Out	Middle Fine Error from M.G. MSA&QR Module
+129	CFINER	Out	Outer Fine Error from O.G. MSA&QR Module	229	ACRSER	Out	Inner Coarse Error from I.G. Coarse Module	329	BCRSER	Out	Middle Coarse Error from M.G. Coarse Module
+130	CCRSER	Out	Outer Coarse Error from O.G. Coarse Module	230	ACSRFH	Out	Inner cos(Θ-Ψ) < 90° Signal from I.G. MSA&QR Module	330	BCSRFH	Out	Middle cos(Θ-Ψ) < 90° Signal from M.G. MSA&QR Module
+131	CCSRFH	Out	Outer cos(Θ-Ψ) < 90° Signal from O.G. MSA&QR Module	231	AUPLVL	Out	Inner Read Counter Up Line from I.G Read Counter	331	BUPLVL	Out	Middle Read Counter Up Line from M.G. Read Counter
+132	CUPLVL	Out	Outer Read Counter Up Line from O.G. Read Counter	232	AMTPA	Out	Inner gimbal fine error T.P. from I.G. MSA&QR Module	332	BMTPA	Out	Middle gimbal fine error T.P. from M.G. MSA&QR Module
+133	CMTPA	Out	Outer gimbal fine error T.P. from O.G. MSA&QR Module	233	ACTPA	Out	Inner gimbal coarse error T.P. from I.G. MSA&QR Module	333	BCTPA	Out	Middle gimbal coarse error T.P. from M.G. MSA&QR Module
+134	CCTPA	Out	Outer gimbal coarse error T.P. from O.G. MSA&QR Module	234	ATPAD	Out	Inner Gimbal AD T.P. from I.G. EC&L Module	334	ATPC1	Out	Inner Gimbal C1 T.P. from I.G. EC&L Module
+135	ATPF1	Out	Inner Gimbal F1 T.P. from I.G. EC&L Module	235	ATPF2	Out	Inner Gimbal F2 T.P. from I.G. EC&L Module	335	BTPAD	Out	Middle Gimbal AD T.P. from M.G. EC&L Module
+136	BTPC1	Out	Middle Gimbal C1 T.P. from M.G. EC&L Module	236	BTPF1	Out	Middle Gimbal F1 T.P. from M.G. EC&L Module	336	BTPF2	Out	Middle Gimbal F2 T.P. from M.G. EC&L Module
+137	CTPAD	Out	Outer Gimbal AD T.P. from O.G. EC&L Module	237	CTPC1	Out	Outer Gimbal C1 T.P. from O.G. EC&L Module	337	CTPF1	Out	Outer Gimbal F1 T.P. from O.G. EC&L Module
+138	CTPF2	Out	Outer Gimbal F2 T.P. from O.G. EC&L Module	238	ATPUG	Out	Inner Gimbal Up Level T.P. from I.G. EC&L Module	338	ATPPI	Out	Inner Gimbal PI T.P. from I.G. EC&L Module
+139	BTPUG	Out	Middle Gimbal Up Level T.P. from M.G. EC&L Module	239	BTPPI	Out	Middle Gimbal PI T.P. from M.G. EC&L Module	339	CTPUG	Out	Outer Gimbal Up Level T.P. from O.G. EC&L Module
+140	CTPPI	Out	Outer Gimbal PI T.P. from O.G. EC&L Module	240	_CHASS	In	Chassis ground	340	+4VHI	In	+4VDC
+141	+4VLO	In	+4VDC Return	241	+4VHI	In	+4VDC	341	+4VLO	In	+4VDC Return
+142	+4VHI	In	+4VDC	242	+4VLO	In	+4VDC Return	342	+4VHI	In	+4VDC
+143	+4VLO	In	+4VDC Return	243	+4VHI	In	+4VDC	343	+4VLO	In	+4VDC Return
+144	+4VHI	In	+4VDC	244	+4VLO	In	+4VDC Return	344		Spare	
+145	A+14V	In	+14V to I.G. D/A Module	245	B+14V	In	+14V to M.G. D/A Module	345	C+14V	In	+14V to O.G. D/A Module
+146	U+28VH	In	ISS +28VDC	246	U+28VH	In	ISS +28VDC	346	U+28VH	In	ISS +28VDC
+147	U+28VH	In	ISS +28VDC	247	U+28VH	In	ISS +28VDC	347	U+28VH	In	ISS +28VDC
+148	FIP+HI | 	Out (LEM) | Spare (CSM)	Inner gimbal +Δ2° from I.G. EC&L Module | 	248	FIP-HI | 	Out (LEM) | Spare (CSM)	Inner gimbal -Δ2° from I.G. EC&L Module | 	348	FMP+HI |  	Out (LEM) | Spare (CSM)	Middle gimbal +Δ2° from M.G. EC&L Module | 
+149	FMP-HI | 	Out (LEM) | Spare (CSM)	Middle gimbal -Δ2° from M.G. EC&L Module | 	249	FOP+HI | 	Out (LEM) | Spare (CSM)	Outer gimbal +Δ2° from O.G. EC&L Module | 	349	FOP-HI | 	Out (LEM) | Spare (CSM)	Outer gimbal -Δ2° from O.G. EC&L Module | 
+150	ADACH | 	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal hi from D/A Module | 	250	ADACL | 	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal lo from D/A Module | 	350	ATEMPH	Out	Inner Gimbal Temp Sensor Hi
+151	BDACH | 	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal hi from D/A Module | 	251	BDACL | 	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal lo from D/A Module | 	351	BTEMPH	Out	Middle Gimbal Temp Sensor Hi
+152	CDACH | 	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal hi from D/A Module | 	252	CDACL | 	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal lo from D/A Module | 	352	CTEMPH	Out	Outer Gimbal Temp Sensor Hi
+153	AATERH	Out	Inner gimbal AC Error hi from I.G. D/A Module	253	AATERL	Out	Inner gimbal AC Error lo from I.G. D/A Module	353	BATERH	Out	Middle gimbal AC Error hi from M.G. D/A Module
+154	BATERL	Out	Middle gimbal AC Error lo from M.G. D/A Module	254	CATERH	Out	Outer gimbal AC Error hi from O.G. D/A Module	354	CATERL	Out	Outer gimbal AC Error lo from O.G. D/A Module
+155	ACAEHI	Out	Inner gimbal Coarse Align Error hi from I.G. D/A Module	255	ACAELO	Out	Inner gimbal Coarse Align Error lo from I.G. D/A Module	355	BCAEHI	Out	Middle gimbal Coarse Align Error hi from M.G. D/A Module
+156	BCAELO	Out	Middle gimbal Coarse Align Error lo from M.G. D/A Module	256	CCAEHI	Out	Outer gimbal Coarse Align Error hi from O.G. D/A Module	356	CCAELO	Out	Outer gimbal Coarse Align Error lo from O.G. D/A Module
+157	ACAGEH	Out	Inner gimbal IMU Cage hi from I.G. Coarse Module	257	ACAGEL	Out	Inner gimbal IMU Cage lo from I.G. Coarse Module	357	BCAGEH	Out	Middle gimbal IMU Cage hi from M.G. Coarse Module
+158	BCAGEL	Out	Middle gimbal IMU Cage lo from M.G. Coarse Module	258	CCAGEH	Out	Outer gimbal IMU Cage hi from O.G. Coarse Module	358	CCAGEL	Out	Outer gimbal IMU Cage lo from O.G. Coarse Module
+159	U28RFH	In	ISS 28Vrms 1% 800 cps reference hi	259	U28RFL	In	ISS 28Vrms 1% 800 cps reference lo	359	TEMPL	Out	Temp Sensor Low
+160	AFSINH	In	Inner gimbal sin 16Θ hi to I.G. Quad Select Module	260	AFSINL	In	Inner gimbal sin 16Θ lo to I.G. Quad Select Module	360		Spare	
+161	AFCOSH	In	Inner gimbal cos 16Θ hi to I.G. Quad Select Module	261	AFCOSL	In	Inner gimbal cos 16Θ lo to I.G. Quad Select Module	361		Spare	
+162	ACSINH	In	Inner gimbal sin Θ hi to I.G. Coarse Module	262	ACSINL	In	Inner gimbal sin Θ lo to I.G. Coarse Module	362		Spare	
+163	ACCOSH	In	Inner gimbal cos Θ hi to I.G. Coarse Module	263	ACCOSL	In	Inner gimbal cos Θ lo to I.G. Coarse Module	363		Spare	
+164	BFSINH	In	Middle gimbal sin 16Θ hi to M.G. Quad Select Module	264	BFSINL	In	Middle gimbal sin 16Θ lo to M.G. Quad Select Module	364		Spare	
+165	BFCOSH	In	Middle gimbal cos 16Θ hi to M.G. Quad Select Module	265	BFCOSL	In	Middle gimbal cos 16Θ lo to M.G. Quad Select Module	365		Spare	
+166	BCSINH	In	Middle gimbal sin Θ hi to M.G. Coarse Module	266	BCSINL	In	Middle gimbal sin Θ lo to M.G. Coarse Module	366		Spare	
+167	BCCOSH	In	Middle gimbal cos Θ hi to M.G. Coarse Module	267	BCCOSL	In	Middle gimbal cos Θ lo to M.G. Coarse Module	367		Spare	
+168	CFSINH	In	Outer gimbal sin 16Θ hi to O.G. Quad Select Module	268	CFSINL	In	Outer gimbal sin 16Θ lo to O.G. Quad Select Module	368		Spare	
+169	CFCOSH	In	Outer gimbal cos 16Θ hi to O.G. Quad Select Module	269	CFCOSL	In	Outer gimbal cos 16Θ lo to O.G. Quad Select Module	369		Spare	
+170	CCSINH	In	Outer gimbal sin Θ hi to O.G. Coarse Module	270	CCSINL	In	Outer gimbal sin Θ lo to O.G. Coarse Module	370		Spare	
+171	CCCOSH	In	Outer gimbal cos Θ hi to O.G. Coarse Module	271	CCCOSL	In	Outer gimbal cos Θ lo to O.G. Coarse Module	371		Spare	

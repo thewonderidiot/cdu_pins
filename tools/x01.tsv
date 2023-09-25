@@ -1,0 +1,71 @@
+101	REJMPA	In (CSM) | NC (LEM)		201	U28RFL | 	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
+102	SATRH	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	202	O28RFL | 	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
+103	SATCON	In (CSM) | NC (LEM)	S/C Control of Saturn Switched 28V	203	GCAPC | U+28VH	In (CSM) | In (LEM)	G&N Autopilot Control
+104	CDACH	In (CSM) | NC (LEM)	Outer D-C Error from ISS D/A's	204	K28RFH	Out (CSM) | NC (LEM)	Optics DAC Reference to Optics D/As
+105	SATRL	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	205	K28RFL	Out (CSM) | NC (LEM)	Optics DAC Reference to Optics D/As
+106	CDACL	In (CSM) | NC (LEM)	Outer D-C Error from ISS D/A's	206	U28RFH | 	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
+107		Spare		207	O28RFH | 	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
+108		Spare		208	EDACH	In	Trunnion D-C Error from Optics D/A's
+109	SATPL	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	209	ENGYL	Out (CSM) | Out (LEM)	DAC Errors for TVC lo | LEM S/C Display lo
+110	ADACH	In (CSM) | NC (LEM)	Inner D-C Error from ISS D/A's	210	EDACL	In	Trunnion D-C Error from Optics D/A's
+111	ADACL	In (CSM) | NC (LEM)	Inner D-C Error from ISS D/A's	211	ENGPH	Out (CSM) | Out (LEM)	DAC Errors for TVC hi | LEM S/C Display hi
+112	SATYH	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	212	ENGYH	Out (CSM) | Out (LEM)	DAC Errors for TVC hi | LEM S/C Display hi
+113	SATPH	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	213	REJMPB	In	
+114	SATYL	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	214	ENGPL	Out (CSM) | Out (LEM)	DAC Errors for TVC lo | LEM S/C Display lo
+115	BDACL	In (CSM) | NC (LEM)	Middle D-C Error from ISS D/A's	215	DDACH	In	Shaft D-C Error from Optics D/A's
+116	BDACH	In (CSM) | NC (LEM)	Middle D-C Error from ISS D/A's	216	DDACL	In	Shaft D-C Error from Optics D/A's
+117	GCAPOP	Out (CSM) | NC (LEM)	G&N Autopilot Control Operate to AGC | 	217	U+28VH	In	ISS +28 VDC
+118	GCAPC | U+28VH	In (CSM) | In (LEM)	G&N Autopilot Control | 	218	REJMPB	Out	
+119	SATCON	Out (CSM) | NC (LEM)	S/C Control of Saturn Switched 28V	219	AGCTVC	In	TVC Enable from AGC
+120	SATOP	Out (CSM) | NC (LEM)	S/C Control of Saturn Operate to AGC	220	REJMPA	Out (CSM) | NC (LEM)	
+121	+4VLO	In	To P.S.	221	TVCDCA	Out	TVC Disable CA to Dig. Mode Module
+122	+4VLO	In	ISS Common	222	AGCSAT	In (CSM) | NC (LEM)	SIVB Takeover Enable from AGC
+123	ACSRFH	In	Inner cos(Θ-Ψ) < 90° Signal	223		Spare	
+124		Spare		224	BCSRFH	In	Middle cos(Θ-Ψ) < 90° Signal
+125	CCSRFH	In	Outer cos(Θ-Ψ) < 90° Signal	225		Spare	
+126	U+14TP	In	14 V IMU Supply Test Point	226		Spare	
+127	UFAIL	Out	ISS CDU Fail to AGC	227		Spare	
+128	CCRSER	In	Outer Coarse Error	228		Spare	
+129	BCRSER	In	Middle Coarse Error	229		Spare	
+130	B+14V	In		230		Spare	
+131	ACRSER	In	Inner Coarse Error	231		Spare	
+132	CFINER	In	Outer Fine Error	232	A+14V	In	
+133	BFINER	In	Middle Fine Error	233	+4VLO | 	In (CSM) | NC (LEM)	
+134	AFINER	In	Inner Fine Error	234	+4VLO | 	In (CSM) | NC (LEM)	
+135	U+28VH	In	ISS 28 VDC	235	CUPLVL	In	Outer Read Counter Up Line
+136		Spare		236	AUPLVL	In	Inner Read Counter Up Line
+137	BUPLVL	In	Middle Read Counter Up Line	237	FAZ4HI	Out	Hi Φ4 to Dig. Mode and EC&L Modules
+138	FAZ3LO	Out	Lo Φ3 to Read Counter, Dig. Mode, and EC&L Modules	238	FAZ4DR	In	Φ4 Drive, from Digital Mode Module
+139	_CHASS	In	Structure Ground	239	FAZ4LO	Out	Lo Φ4 to Dig. Mode and EC&L Modules
+140	+4VHI	In	+4 VDC	240	CCDUZ	Out	ISS CDU Zero (Z) to Read Counter Module (Outer), Digital Mode Module, and Interrogate Module
+141	FAZ3DR	In	Φ3 Drive, from Digital Mode Module	241	BCDUZ	Out	ISS CDU Zero (Z) to Read Counter Module (Middle), Digital Mode Module, and Interrogate Module
+142	FAZ3HI	Out	Hi Φ3 to Read Counter, Dig. Mode, and EC&L Modules	242	RRZDR	In	RR CDU Zero Drive from Digital Mode Module
+143	ECDUZ	Out	Trunnion Radar CDU Zero (Z) To Read Counter Modules	243	ACDUZ	Out	ISS CDU Zero (Z) to Read Counter Module (Inner), Digital Mode Module, and Interrogate Module
+144	DCDUZ	Out	Shaft Radar CDU Zero (Z) to Read Counter Modules	244	MODCOM	Out	Mode Common to Dig. Mode Module
+145	ISSZDR	In	ISS CDU Zero Drive from Digital Mode Module	245	FAZ2HI/	Out	Hi Φ2/ to Read Counter, Dig. Mode, and EC&L Modules
+146	FAZ2HI	Out	Hi Φ2 to Dig. Mode and EC&L Modules	246	FAZ2DR	In	Φ2 Drive, from Digital Mode Module
+147	FAZ2LO	Out	Lo Φ2 to Dig. Mode and EC&L Modules	247	+4VHI	In	+4 VDC
+148	AGCRRZ	In	Opt/RR CDU Zero from AGC	248	FAZ2DR/	In	Φ2/ Drive, from Digital Mode Module
+149	RRDAE	Out	Rend. Radar or Optics D/A Enable to Digital Mode Module	249	FAZ2LO/	Out	Lo Φ2/ to Read Counter, Dig. Mode, and EC&L Modules
+150	CARPSA	Out	Coarse Align Relay Enable to PSA	250	RRZ	Out	Rend. Radar CDU Zero to Digital Mode Module
+151	CARPSA	Out	Coarse Align Relay Enable to PSA	251	AGCDAE	In	Rend. Radar or Optics Enable Error Counter from AGC
+152	+4VLO	In	+4 VDC Ret	252	CAGE	In	Cage Override from PSA
+153	AGCZ	In	ISS CDU Zero from AGC	253	ISSEEC	Out	ISS Error Counter Enable to Digital Mode Module
+154	FJMPA	Out		254	ISSZ	Out	ISS CDU Zero to Digital Mode Module
+155	U+28VH	In	ISS 28 VDC	255	AGCEEC	In	ISS Error Counter Enable from AGC
+156	AGCCA	In	ISS Coarse Align Enable from AGC	256		Spare	
+157	K+28VH	In	Mixed +28 VDC	257	ISSCA	Out	ISS Coarse Align Enable to Digital Mode Module
+158	IMUOPR	Out	IMU Operate Signal to AGC	258	U+28VH	In	ISS 28 VDC
+159	U+14TP	Out	TP +14 VDC	259	A+14V	Out	
+160	DCSRFH	In	Shaft cos(Θ-Ψ) < 90° Signal	260	B+14V	Out	
+161	+4VLO	In	+4 VDC Ret	261	C+14V	Out	
+162	FJMPA	In		262	ECSRFH	In	Trunnion cos(Θ-Ψ) < 90° Signal
+163	O+14TP	In	14V Optics Supply Test Point	263	+4VLO	In	Optics Common
+164		Spare		264		Spare	
+165	DCRSER | 	In (LEM) | NC (CSM)	RR Shaft Coarse Error | Maybe ground? UNK	265		Spare	
+166	ECRSER | 	In (LEM) | NC (CSM)	RR Trunnion Coarse Error | Maybe ground? UNK	266		Spare	
+167	EFINER	In	Trunnion Fine Error	267		Spare	
+168	DFINER	In	Shaft Fine Error	268	D+14V	In	
+169	OFAIL	Out	Optics CDU Fail to AGC	269	EUPLVL	In	Trunnion Read Counter Up Line
+170	E+14V	In		270		Spare	
+171	DUPLVL	In	Shaft Read Counter Up Line	271	O+28VH	In	Optics 28 VDC
