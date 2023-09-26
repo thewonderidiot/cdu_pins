@@ -18,7 +18,8 @@ def close_connection(exception):
 
 @app.route('/')
 def index():
-    return render_template('pin_inspector.html')
+    vehicle = 'LM' if 'lem.db' in app.config['delphi'] else 'CM'
+    return render_template('pin_inspector.html', vehicle=vehicle)
 
 @app.route('/pins/pin/<conn>/<int:pin>')
 def get_pin_info(conn, pin):
