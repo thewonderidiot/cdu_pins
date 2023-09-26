@@ -2,7 +2,7 @@
 102	_XP15 | 	Out (IMU/RR/SHFT) | NC (TRUN)		202	_D21 | _D22	Out (IMU/RR/SHFT) | Out (TRUN)	
 103	_FLC | _FLD	Out (IMU/RR/SHFT) | Out (TRUN)		203	_FLD | _FLE	Out (IMU/RR/SHFT) | Out (TRUN)	
 104	_D22 | 	Out (IMU/RR/SHFT) | NC (TRUN)		204		Spare	
-105	_D11 | 	Out (IMU/RR/SHFT) | NC (TRUN)		205	_DC12 | _FLF	Out (IMU/RR/SHFT) | Out (TRUN)	
+105	_D11 | 	Out (IMU/RR/SHFT) | NC (TRUN)		205	_DC12 | _FLF | 	Out (IMU/RR) | Out (TRUN) | NC (SHFT)	|  |  UNK
 106	_XP15/ | 	Out (IMU/RR/SHFT) | NC (TRUN)		206		Spare	
 107	_D14 | 	Out (IMU/RR/SHFT) | NC (TRUN)		207		Spare	
 108		Spare		208	_D20 | _D21	Out (IMU/RR/SHFT) | Out (TRUN)	
@@ -12,7 +12,7 @@
 112	+4VLO	In	+4VDC return	212	+4VLO	In	+4VDC return
 113	_UPLVL	In	Up level	213		Spare	
 114	_LCQM	Out	To Quad Select	214		Spare	
-115	_DC11 | 	Out (IMU/RR/SHFT) | NC (TRUN)		215		Spare	
+115	_DC11 | 	Out (IMU/RR) | NC (OPTX)		215		Spare	
 116		Spare		216		Spare	
 117	_FLB	In		217		Spare	
 118	_DNLVL	In	Down level	218	_DNLVL	In	Down level
@@ -30,42 +30,42 @@
 130	_LCMM	Out	To MSA	230	_D18 | _D19	Out (IMU/RR/SHFT) | Out (TRUN)	
 131	_D10	Out		231	_DEL0L	Out	
 132	_FLG	In		232	_DEL0H	Out	
-133	_XP15/	In		233		Spare	
+133	_XP15/ | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	233		Spare	
 134	_Q | +4VLO	In (IMU) | In (RR/OPTX)	Turn On Enable Signal from Dig. Mode Module	234	_UPLVL	In	Up level
-135	_DC7	Out		235		Spare	
+135	_DC7 | 	Out (IMU/RR) | NC (OPTX)		235		Spare	
 136	+4VLO	In	+4VDC return	236	+4VLO	In	+4VDC return
-137	_RSETB	Out		237		Spare	
+137	_RSETB | 	Out (IMU/RR) | NC (OPTX)	| UNK	237		Spare	
 138	_CDUZ	In	Reset	238		Spare	
-139	_DC1	Out		239	_FLA | 	Out (IMU/RR/SHFT) | NC (TRUN)	
+139	_DC1 | 	Out (IMU/RR) | NC (OPTX)		239	_FLA | 	Out (IMU/RR/SHFT) | NC (TRUN)	
 140	_XP14/ | 	Out (IMU/RR/SHFT) | NC (TRUN)		240	_CDUZ	In	Reset
 141	_D4	Out		241		Spare	
 142	_XP14 | 	Out (IMU/RR/SHFT) | NC (TRUN)		242		Spare	
-143	_XP15	In		243	_FLE | _FLA	Out (IMU/RR/SHFT) | Out (TRUN)	
+143	_XP15 | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	243	_FLE | _FLA	Out (IMU/RR/SHFT) | Out (TRUN)	
 144	_XP13/ | 	Out (IMU/RR/SHFT) | NC (TRUN)		244		Spare	
-145	_DC5	Out		245	_FLF | _FLG	Out (IMU/RR/SHFT) | Out (TRUN)	
+145	_DC5 | 	Out (IMU/RR) | NC (OPTX)		245	_FLF | _FLG	Out (IMU/RR/SHFT) | Out (TRUN)	
 146	_XP13 | 	Out (IMU/RR/SHFT) | NC (TRUN)		246		Spare	
 147	_FLF	In		247	_FLG | _D15	Out (IMU/RR/SHFT) | Out (TRUN)	
 148	+4VHI	In	+4VDC	248	+4VHI	In	+4VDC
 149	_FLD	In		249		Spare	
-150	_LCCM	Out	To Coarse Module	250		Spare	
-151	_DC3	Out		251		Spare	
+150	_LCCM | 	Out (IMU/RR) | NC (OPTX)	To Coarse Module | Maybe still ground? UNK	250		Spare	
+151	_DC3 | 	Out (IMU/RR) | NC (OPTX)		251		Spare	
 152	 | _D7	NC (IMU/RR/SHFT) | Out (TRUN)		252		Spare	
-153	_XP14/	In		253		Spare	
+153	_XP14/ | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	253		Spare	
 154	_D2	Out		254		Spare	
-155	_XP14	In		255	_DEL2L	Out	
-156	_DC9 | _D8	Out (IMU/RR/SHFT) | Out (TRUN)		256	_DEL2H	Out	
-157	_DC8	Out		257		Spare	
+155	_XP14 | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	255	_DEL2L	Out	
+156	_DC9 | _D8 | 	Out (IMU/RR) | Out (TRUN) | NC (SHFT)	|  |  UNK	256	_DEL2H	Out	
+157	_DC8 | 	Out (IMU/RR) | NC (OPTX)		257		Spare	
 158	_D8 | _D11	Out (IMU/RR/SHFT) | Out (TRUN)		258		Spare	
-159	_DC2	Out		259		Spare	
+159	_DC2 | 	Out (IMU/RR) | NC (OPTX)		259		Spare	
 160	+4VLO	In	+4VDC return	260	+4VLO	In	+4VDC return
-161	_XP13/	In		261		Spare	
+161	_XP13/ | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	261		Spare	
 162	_D1	Out		262		Spare	
 163	_D3	Out		263		Spare	
 164	 | _FLB	NC (IMU/RR/SHFT) | Out (TRUN)		264		Spare	
-165	_DC6	Out		265	_D15 | _D16	Out (IMU/RR/SHFT) | Out (TRUN)	
+165	_DC6 | 	Out (IMU/RR) | NC (OPTX)		265	_D15 | _D16	Out (IMU/RR/SHFT) | Out (TRUN)	
 166	_FLB | _FLC	Out (IMU/RR/SHFT) | Out (TRUN)		266		Spare	
-167	_DC4	Out		267		Spare	
-168	_DC10 | 	Out (IMU/RR/SHFT) | NC (TRUN)		268		Spare	
-169	_XP13	In		269		Spare	
+167	_DC4 | 	Out (IMU/RR) | NC (OPTX)		267		Spare	
+168	_DC10 | 	Out (IMU/RR) | NC (OPTX)		268		Spare	
+169	_XP13 | 	In (IMU/RR/SHFT) | NC (TRUN)	| Maybe ground? UNK	269		Spare	
 170	_D7 | _D14	Out (IMU/RR/SHFT) | Out (TRUN)		270	_D17 | _D18	Out (IMU/RR/SHFT) | Out (TRUN)	
 171	_FLE	In		271	_D16 | _D17	Out (IMU/RR/SHFT) | Out (TRUN)	

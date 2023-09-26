@@ -4,11 +4,11 @@
 104	DADHI | 	In (LEM) | NC (CSM)	| Maybe ground? UNK	204		Spare	
 105	DMMCA	In	CA	205	DMMCA	In	CA
 106	DADLO | 	In (LEM) | NC (CSM)	| Maybe ground? UNK	206		Spare	
-107	DAO	Out	RR Shaft Amb. Override Signal to RR Shaft EC&L	207		Spare	
+107	DAO | 	Out (LEM) | NC (CSM)	RR Shaft Amb. Override Signal to RR Shaft EC&L | UNK	207		Spare	
 108	SREF1H	In		208		Spare	
 109	AQ	Out	Turn On Enable to Inner Read Counter Module	209		Spare	
 110	DEEC	Out	Shaft Error Counter Enable to EC&L Modules	210	FAZ2DR	Out	Φ2 Drive To Mode Module
-111	DRSETB	In	RR Shaft Amb Reset B from RR Shaft Module	211		Spare	
+111	DRSETB | 	In (LEM) | NC (CSM)	RR Shaft Amb Reset B from RR Shaft Module | Maybe ground? UNK	211		Spare	
 112	+4VLO	In	+4 VDC Return	212	+4VLO	In	+4 VDC Return
 113	UREF1L	In	Ref In Φ From Interrogate Module	213	TRNI2L	Out	I2 Optics Trunnion or RR to EC&L Module
 114	SHI2H	In		214	FAZ2DR/	Out	Φ2/ Drive To Mode Module
@@ -60,11 +60,11 @@
 160	+4VLO	In	+4 VDC Return	260	+4VLO	In	+4 VDC Return
 161	ARSETB	In	Inner Ambiguity Reset B from Read Counter Module	261		Spare	
 162	FAZ2HI	In	Φ2	262	CCDUZ	In	
-163	ERSETB	In	RR Trunnion Ambiguity Reset B from Trunnion Read Ctr Module	263	51KPLO	In	51.2kpps from Interrogate Module
+163	ERSETB | 	In (LEM) | NC (CSM)	RR Trunnion Ambiguity Reset B from Trunnion Read Ctr Module | Maybe ground? UNK	263	51KPLO	In	51.2kpps from Interrogate Module
 164	RRZDR	Out	CDU Zero Z Radar/Optics	264	51KPHI	In	51.2kpps from Interrogate Module
 165	DCDUZ	In	RR CDUZ	265	FAZ2HI	In	Φ2
 166	RRZ	In	RR. CDU Zero or Optics from Mode Module	266	FAZ2LO	In	Φ2
-167	EAO	Out	A0 RR Trunnion Ambiguity Override to RR Trunion EC&L	267	800LHI	Out	800 PPS Φ4L
+167	EAO | 	Out (LEM) | NC (CSM)	A0 RR Trunnion Ambiguity Override to RR Trunion EC&L | 	267	800LHI	Out	800 PPS Φ4L
 168	ISSCA	In	ISS Coarse Align Enable from Mode Module	268	FZHI	Out	To Interrogate Module
 169	FAZ2LO	In	Φ2	269		NC	
 170	ISSEEC	In	ISS Error Counter Enable from Mode Module	270	800LLO	Out	800 PPS Φ4L
