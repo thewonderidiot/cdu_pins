@@ -158,9 +158,9 @@ def generate_db(vehicle):
             module_offset = module_num  - 4
             modules.append(('X%02u' % (module_num), 'SHFT'))
             modules.append(('X%02u' % (module_num+6), 'TRUN'))
-            modules.append(('S%02u' % (module_offset), 'IG'))
+            modules.append(('S%02u' % (module_offset), 'OG'))
             modules.append(('S%02u' % (module_offset+6), 'MG'))
-            modules.append(('S%02u' % (module_offset+12), 'OG'))
+            modules.append(('S%02u' % (module_offset+12), 'IG'))
         else:
             modules.append(('X%02u' % (module_num), '-'))
 
