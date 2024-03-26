@@ -4,9 +4,9 @@
 104	800LLO	In	800 PPS at Φ4 L from Digital Mode module	204	_DD5	Out	
 105	_INHRC	In	Inhibit read counter from Digital Mode module	205		Spare	
 106	_AO | 	In (IMU/RR) | NC (OPTX)	Ambiguity Override AO from Digital Mode Module | Maybe ground? UNK	206	FAZ2HI/	In	Φ2/
-107	800LHI	In	800 PPS at Φ4 L from Digital Mode module	207	_CDUZ	In	
+107	800LHI	In	800 PPS at Φ4 L from Digital Mode module	207	_CDUZ | 	In (IMU) | NC (OPTX/RR)	
 108	FAZ4CA | FAZ4HI	In (IMU) | In (OPTX/RR)	Φ4	208	FAZ2LO/	In	Φ2/
-109	_TPPI	Out	PI T.P.	209	_INHCE	Out	
+109	_TPPI	Out	PI T.P.	209	_INHCE | 	Out (IMU) | NC (OPTX/RR)	
 110	FAZ4LO	In	Φ4	210		Spare	
 111	_PIHI	Out	To Read Counter	211	_UPLVL | 	In (LEM+IMU) | NC (RR/CSM)	
 112	+4VLO	In	+4 VDC return	212	+4VLO	In	+4 VDC return
