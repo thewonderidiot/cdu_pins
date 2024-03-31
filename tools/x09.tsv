@@ -7,7 +7,7 @@
 107	_MJMPJ	In		207	_+28VH	In	+28 VDC
 108		Spare		208	_SIGGR	In	
 109	_CSRFH	Out	cos(Θ-Ψ) ∠90°	209	_SIGGR	In	Sig ground
-110	_CSRFL	Out (TRUN) | NC (SHFT) | NC (IMU)	cos(Θ-Ψ) ∠90° | cos(Θ-Ψ) ∠90° | UNK	210	_MTPB	NC	
+110	_CSRFL	Out (TRUN) | NC (SHFT) | NC (IMU)	cos(Θ-Ψ) ∠90° 	210	_MTPB	NC	
 111		Spare		211		Spare	
 112		Spare		212		Spare	
 113		Spare		213		Spare	
