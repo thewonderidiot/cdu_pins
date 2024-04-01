@@ -18,8 +18,8 @@
 118	K+28VH	In	28 VDC Mixed	218		Spare	
 119	FOP-HI	In (LEM) | NC (CSM)	Outer	219		Spare	
 120	FZHI	In		220		Spare	
-121	FCDUZL | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | UNK	221	O+14TP	Out	Optics +14V
-122	FCDUZH | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | UNK	222	E+14V	Out	Optics +14V
+121	FCDUZL | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | 	221	O+14TP	Out	Optics +14V
+122	FCDUZH | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | 	222	E+14V	Out	Optics +14V
 123	O+28VH	In		223	IJMPA	In (LEM) | NC (CSM)	Abort Guidance Interconnections for LEM Only | 
 124	D+14V	Out	Optics +14V	224	+4VLO	In	
 125	TRNIHI	Out	RR / Optics Trunnion Interrogate to Trunnion EC&L Module	225	TRNILO	Out	RR / Optics Trunnion Interrogate to Trunnion EC&L Module

@@ -62,8 +62,8 @@
 162	FJMPA	In		262	ECSRFH	In	Trunnion cos(Θ-Ψ) < 90° Signal
 163	O+14TP	In	14V Optics Supply Test Point	263	+4VLO	In	Optics Common
 164		Spare		264		Spare	
-165	DCRSER | 	In (LEM) | NC (CSM)	RR Shaft Coarse Error | Maybe ground? UNK	265		Spare	
-166	ECRSER | 	In (LEM) | NC (CSM)	RR Trunnion Coarse Error | Maybe ground? UNK	266		Spare	
+165	DCRSER | 	In (LEM) | NC (CSM)	RR Shaft Coarse Error | 	265		Spare	
+166	ECRSER | 	In (LEM) | NC (CSM)	RR Trunnion Coarse Error | 	266		Spare	
 167	EFINER	In	Trunnion Fine Error	267		Spare	
 168	DFINER	In	Shaft Fine Error	268	D+14V	In	
 169	OFAIL	Out	Optics CDU Fail to AGC	269	EUPLVL	In	Trunnion Read Counter Up Line
