@@ -7,9 +7,9 @@
 107	_F+PCL	In	+ΔΘC from AGC	207	_F-PCL	In	-ΔΘC from AGC
 108	_+PCL	Out	+ΔΘC to EC&L module	208	_F-PCH	In	-ΔΘC from AGC
 109	_-PCH	Out	-ΔΘC to EC&L module	209	_-PCL	Out	-ΔΘC to EC&L module
-110		Spare		210	_INHCE | 	In (IMU) | NC (OPTX/RR)	Inhibit coarse error from EC&L module | 
-111	_DACAL | 	Out (IMU) | NC (RR/OPTX)		211		Spare	
-112	_FINER | 	In (IMU/RR) | NC (OPTX)	Fine error | 	212	_SIGGR	In	
+110		Spare		210	_INHCE	In (IMU) | NC (OPTX/RR)	Inhibit coarse error from EC&L module
+111	_DACAL	Out (IMU) | NC (RR/OPTX)		211		Spare	
+112	_FINER	In (IMU/RR) | NC (OPTX)	Fine error	212	_SIGGR	In	
 113		Spare		213		Spare	
 114		Spare		214		Spare	
 115		Spare		215		Spare	
@@ -19,15 +19,15 @@
 119		Spare		219		Spare	
 120		Spare		220		Spare	
 121		Spare		221		Spare	
-122	_CAELO | 	Out (IMU) | NC (OPTX/RR)	Coarse align error | 	222		Spare	
-123		Spare		223	_CRSER | 	In (IMU) | NC (OPTX/RR)	Coarse error | 
-124	_CAEHI | 	Out (IMU) | NC (OPTX/RR)	Coarse align error | 	224		Spare	
+122	_CAELO	Out (IMU) | NC (OPTX/RR)	Coarse align error	222		Spare	
+123		Spare		223	_CRSER	In (IMU) | NC (OPTX/RR)	Coarse error
+124	_CAEHI	Out (IMU) | NC (OPTX/RR)	Coarse align error	224		Spare	
 125		Spare		225		Spare	
 126		Spare		226	_DACH	Out (RR/OPTX/CSM+IMU) | NC (LEM+IMU)	DC error signal
 127		Spare		227		Spare	
-128	_DACAH | 	In (IMU) | NC (OPTX/RR)		228	_28RFL | K28RFL	In (IMU/RR) | In (OPTX)	800CPS 28V 1%
-129	_ATERH | _DACAH | 	Out (OPTX) | Out (IMU) | NC (RR)	AC error signal |  | 	229		Spare	
-130	_DJMPA | _DACAL | 	In (OPTX) | In (IMU) | NC (RR)		230		Spare	
+128	_DACAH	In (IMU) | NC (OPTX/RR)		228	_28RFL | K28RFL	In (IMU/RR) | In (OPTX)	800CPS 28V 1%
+129	_ATERH | _DACAH | _DACAH	Out (OPTX) | Out (IMU) | NC (RR)	AC error signal	229		Spare	
+130	_DJMPA | _DACAL | _DACAL	In (OPTX) | In (IMU) | NC (RR)		230		Spare	
 131	_ATERL	Out	AC error signal	231	_28RFH | K28RFH	In (IMU/RR) | In (OPTX)	800CPS 28V 1%
 132	_DJMPA | _ATERH	Out (OPTX) | Out (IMU/RR)		232		Spare	
 133		Spare		233		Spare	
@@ -42,7 +42,7 @@
 142		Spare		242		Spare	
 143		Spare		243		Spare	
 144	_SIGGR	Out	Signal ground	244		Spare	
-145		Spare		245	+4VLO	In	_INPTL in schematic, Input lo
+145		Spare		245	_INPTL	In	
 146	_DD7	In		246	_DD8	In	
 147		Spare		247		Spare	
 148		Spare		248		Spare	
@@ -63,7 +63,7 @@
 163		Spare		263	_DD0	In	
 164	_+28VH	In	+28VDC	264		Spare	
 165		Spare		265	_-DAPL	In	- D/A polarity
-166	+4VLO	In	_INPTL in schematic, Input lo	266		Spare	
+166	_INPTL	Out		266		Spare	
 167	_28RFL | K28RFL	In (IMU/RR) | In (OPTX)	800 CPS 28V 1%	267		Spare	
 168	_+DAPL	In	+ D/A polarity	268	_LCECL	In	Logic ground
 169		Spare		269		Spare	

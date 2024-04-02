@@ -1,10 +1,10 @@
-101	REJMPA	In (CSM) | NC (LEM)		201	U28RFL | 	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
-102	SATRH	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	202	O28RFL | 	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
+101	REJMPA	In (CSM) | NC (LEM)		201	U28RFL	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
+102	SATRH	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	202	O28RFL	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
 103	SATCON	In (CSM) | NC (LEM)	S/C Control of Saturn Switched 28V	203	GCAPC | U+28VH	In (CSM) | In (LEM)	G&N Autopilot Control
 104	CDACH	In (CSM) | NC (LEM)	Outer D-C Error from ISS D/A's	204	K28RFH	Out (CSM) | NC (LEM)	Optics DAC Reference to Optics D/As
 105	SATRL	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	205	K28RFL	Out (CSM) | NC (LEM)	Optics DAC Reference to Optics D/As
-106	CDACL	In (CSM) | NC (LEM)	Outer D-C Error from ISS D/A's	206	U28RFH | 	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
-107		Spare		207	O28RFH | 	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
+106	CDACL	In (CSM) | NC (LEM)	Outer D-C Error from ISS D/A's	206	U28RFH	In (CSM) | NC (LEM)	ISS 28 VRMS 800~
+107		Spare		207	O28RFH	In (CSM) | NC (LEM)	Optics 28 VRMS 800~
 108		Spare		208	EDACH	In	Trunnion D-C Error from Optics D/A's
 109	SATPL	Out (CSM) | NC (LEM)	DAC Errors for Saturn Attitude	209	ENGYL	Out (CSM) | Out (LEM)	DAC Errors for TVC lo | LEM S/C Display lo
 110	ADACH	In (CSM) | NC (LEM)	Inner D-C Error from ISS D/A's	210	EDACL	In	Trunnion D-C Error from Optics D/A's
@@ -30,8 +30,8 @@
 130	B+14V	In		230		Spare	
 131	ACRSER	In	Inner Coarse Error	231		Spare	
 132	CFINER	In	Outer Fine Error	232	A+14V	In	
-133	BFINER	In	Middle Fine Error	233	+4VLO | 	In (CSM) | NC (LEM)	
-134	AFINER	In	Inner Fine Error	234	+4VLO | 	In (CSM) | NC (LEM)	
+133	BFINER	In	Middle Fine Error	233	+4VLO	In (CSM) | NC (LEM)	
+134	AFINER	In	Inner Fine Error	234	+4VLO	In (CSM) | NC (LEM)	
 135	U+28VH	In	ISS 28 VDC	235	CUPLVL	In	Outer Read Counter Up Line
 136		Spare		236	AUPLVL	In	Inner Read Counter Up Line
 137	BUPLVL	In	Middle Read Counter Up Line	237	FAZ4HI	Out	Hi Φ4 to Dig. Mode and EC&L Modules
@@ -62,8 +62,8 @@
 162	FJMPA	In		262	ECSRFH	In	Trunnion cos(Θ-Ψ) < 90° Signal
 163	O+14TP	In	14V Optics Supply Test Point	263	+4VLO	In	Optics Common
 164		Spare		264		Spare	
-165	DCRSER | 	In (LEM) | NC (CSM)	RR Shaft Coarse Error | 	265		Spare	
-166	ECRSER | 	In (LEM) | NC (CSM)	RR Trunnion Coarse Error | 	266		Spare	
+165	DCRSER	In (LEM) | NC (CSM)	RR Shaft Coarse Error	265		Spare	
+166	ECRSER	In (LEM) | NC (CSM)	RR Trunnion Coarse Error	266		Spare	
 167	EFINER	In	Trunnion Fine Error	267		Spare	
 168	DFINER	In	Shaft Fine Error	268	D+14V	In	
 169	OFAIL	Out	Optics CDU Fail to AGC	269	EUPLVL	In	Trunnion Read Counter Up Line

@@ -45,11 +45,11 @@
 145	A+14V	In	+14V to I.G. D/A Module	245	B+14V	In	+14V to M.G. D/A Module	345	C+14V	In	+14V to O.G. D/A Module
 146	U+28VH	In	ISS +28VDC	246	U+28VH	In	ISS +28VDC	346	U+28VH	In	ISS +28VDC
 147	U+28VH	In	ISS +28VDC	247	U+28VH	In	ISS +28VDC	347	U+28VH	In	ISS +28VDC
-148	FIP+HI | 	Out (LEM) | Spare (CSM)	Inner gimbal +Δ2° from I.G. EC&L Module | 	248	FIP-HI | 	Out (LEM) | Spare (CSM)	Inner gimbal -Δ2° from I.G. EC&L Module | 	348	FMP+HI |  	Out (LEM) | Spare (CSM)	Middle gimbal +Δ2° from M.G. EC&L Module | 
-149	FMP-HI | 	Out (LEM) | Spare (CSM)	Middle gimbal -Δ2° from M.G. EC&L Module | 	249	FOP+HI | 	Out (LEM) | Spare (CSM)	Outer gimbal +Δ2° from O.G. EC&L Module | 	349	FOP-HI | 	Out (LEM) | Spare (CSM)	Outer gimbal -Δ2° from O.G. EC&L Module | 
-150	ADACH | 	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal hi from D/A Module | 	250	ADACL | 	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal lo from D/A Module | 	350	ATEMPH	Out	Inner Gimbal Temp Sensor Hi
-151	BDACH | 	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal hi from D/A Module | 	251	BDACL | 	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal lo from D/A Module | 	351	BTEMPH	Out	Middle Gimbal Temp Sensor Hi
-152	CDACH | 	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal hi from D/A Module | 	252	CDACL | 	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal lo from D/A Module | 	352	CTEMPH	Out	Outer Gimbal Temp Sensor Hi
+148	FIP+HI	Out (LEM) | Spare (CSM)	Inner gimbal +Δ2° from I.G. EC&L Module	248	FIP-HI	Out (LEM) | Spare (CSM)	Inner gimbal -Δ2° from I.G. EC&L Module	348	FMP+HI	Out (LEM) | Spare (CSM)	Middle gimbal +Δ2° from M.G. EC&L Module
+149	FMP-HI	Out (LEM) | Spare (CSM)	Middle gimbal -Δ2° from M.G. EC&L Module	249	FOP+HI	Out (LEM) | Spare (CSM)	Outer gimbal +Δ2° from O.G. EC&L Module	349	FOP-HI	Out (LEM) | Spare (CSM)	Outer gimbal -Δ2° from O.G. EC&L Module
+150	ADACH	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal hi from D/A Module	250	ADACL	Out (CSM) | Spare (LEM)	Inner gimbal DC error signal lo from D/A Module	350	ATEMPH	Out	Inner Gimbal Temp Sensor Hi
+151	BDACH	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal hi from D/A Module	251	BDACL	Out (CSM) | Spare (LEM)	Middle gimbal DC error signal lo from D/A Module	351	BTEMPH	Out	Middle Gimbal Temp Sensor Hi
+152	CDACH	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal hi from D/A Module	252	CDACL	Out (CSM) | Spare (LEM)	Outer gimbal DC error signal lo from D/A Module	352	CTEMPH	Out	Outer Gimbal Temp Sensor Hi
 153	AATERH	Out	Inner gimbal AC Error hi from I.G. D/A Module	253	AATERL	Out	Inner gimbal AC Error lo from I.G. D/A Module	353	BATERH	Out	Middle gimbal AC Error hi from M.G. D/A Module
 154	BATERL	Out	Middle gimbal AC Error lo from M.G. D/A Module	254	CATERH	Out	Outer gimbal AC Error hi from O.G. D/A Module	354	CATERL	Out	Outer gimbal AC Error lo from O.G. D/A Module
 155	ACAEHI	Out	Inner gimbal Coarse Align Error hi from I.G. D/A Module	255	ACAELO	Out	Inner gimbal Coarse Align Error lo from I.G. D/A Module	355	BCAEHI	Out	Middle gimbal Coarse Align Error hi from M.G. D/A Module

@@ -12,15 +12,15 @@
 112	25KPSL	Out	25.6 KPPS Sync to +4V Power Supply	212	PS25KL	In	
 113	+4VLO	In		213	+4VLO	In	Outer
 114	FOP+HI	In (LEM) | NC (CSM)	Outer	214		Spare	
-115	FO-PGH	Out (LEM) | NC (CSM)	-ΔΘG Outer LEM Abort Guidance Signal	215	IJMPA	Out (LEM) | NC (CSM)	Abort Guidance Interconnections for LEM Only | 
+115	FO-PGH	Out (LEM) | NC (CSM)	-ΔΘG Outer LEM Abort Guidance Signal	215	IJMPA	Out (LEM) | NC (CSM)	Abort Guidance Interconnections for LEM Only
 116	FO-PGL	Out (LEM) | NC (CSM)	-ΔΘG Outer LEM Abort Guidance Signal	216	+4VLO	In	
 117		Spare		217		Spare	
 118	K+28VH	In	28 VDC Mixed	218		Spare	
 119	FOP-HI	In (LEM) | NC (CSM)	Outer	219		Spare	
 120	FZHI	In		220		Spare	
-121	FCDUZL | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | 	221	O+14TP	Out	Optics +14V
-122	FCDUZH | 	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal | 	222	E+14V	Out	Optics +14V
-123	O+28VH	In		223	IJMPA	In (LEM) | NC (CSM)	Abort Guidance Interconnections for LEM Only | 
+121	FCDUZL	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal	221	O+14TP	Out	Optics +14V
+122	FCDUZH	Out (LEM) | NC (CSM)	CDUZ Indicate LEM Abort Guidance Signal	222	E+14V	Out	Optics +14V
+123	O+28VH	In		223	IJMPA	In (LEM) | NC (CSM)	Abort Guidance Interconnections for LEM Only
 124	D+14V	Out	Optics +14V	224	+4VLO	In	
 125	TRNIHI	Out	RR / Optics Trunnion Interrogate to Trunnion EC&L Module	225	TRNILO	Out	RR / Optics Trunnion Interrogate to Trunnion EC&L Module
 126		Spare		226		Spare	
@@ -34,7 +34,7 @@
 134	+4VLO	In		234		Spare	
 135		Spare		235		Spare	
 136		Spare		236		Spare	
-137	ECSRFH | 	In (CSM) | NC (LEM)	Trunnion cos(Θ-Ψ) from MSA module (90°)	237		Spare	
+137	ECSRFH	In (CSM) | NC (LEM)	Trunnion cos(Θ-Ψ) from MSA module (90°)	237		Spare	
 138	SREF1L	Out	Ref ∠0° Shaft to EC&L Modules	238	IJMPB	Out	
 139	SHIHI	Out	RR / Optics Shaft Interrogate to OP7 EC&L Module	239	TREF1L	Out (CSM) | NC (LEM)	Ref ∠45° Trunnion to EC&L Modules
 140		Spare		240	SHILO	Out	RR / Optics Shaft Interrogate to OP7 EC&L Module

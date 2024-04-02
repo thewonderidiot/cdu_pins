@@ -1,23 +1,23 @@
-101	_ADLO | 	In (IMU/RR) | NC (OPTX)		201	_CHASS	In	Structure ground
-102	_ADHI | 	In (IMU/RR) | NC (OPTX)		202	_DD4	Out	
+101	_ADLO	In (IMU/RR) | NC (OPTX)		201	_CHASS	In	Structure ground
+102	_ADHI	In (IMU/RR) | NC (OPTX)		202	_DD4	Out	
 103	FAZ2HI/	In	Φ2/	203		Spare	
 104	800LLO	In	800 PPS at Φ4 L from Digital Mode module	204	_DD5	Out	
 105	_INHRC	In	Inhibit read counter from Digital Mode module	205		Spare	
-106	_AO | 	In (IMU/RR) | NC (OPTX)	Ambiguity Override AO from Digital Mode Module | 	206	FAZ2HI/	In	Φ2/
-107	800LHI	In	800 PPS at Φ4 L from Digital Mode module	207	_CDUZ | 	In (IMU) | NC (OPTX/RR)	
+106	_AO	In (IMU/RR) | NC (OPTX)	Ambiguity Override AO from Digital Mode Module	206	FAZ2HI/	In	Φ2/
+107	800LHI	In	800 PPS at Φ4 L from Digital Mode module	207	_CDUZ	In (IMU) | NC (OPTX/RR)	
 108	FAZ4CA | FAZ4HI	In (IMU) | In (OPTX/RR)	Φ4	208	FAZ2LO/	In	Φ2/
-109	_TPPI	Out	PI T.P.	209	_INHCE | 	Out (IMU) | NC (OPTX/RR)	
+109	_TPPI	Out	PI T.P.	209	_INHCE	Out (IMU) | NC (OPTX/RR)	
 110	FAZ4LO	In	Φ4	210		Spare	
-111	_PIHI	Out	To Read Counter	211	_UPLVL | 	In (LEM+IMU) | NC (RR/CSM)	
+111	_PIHI	Out	To Read Counter	211	_UPLVL	In (LEM+IMU) | NC (RR/CSM)	
 112	+4VLO	In	+4 VDC return	212	+4VLO	In	+4 VDC return
-113	_PILO	Out	To Read Counter	213	F_P+HI | 	Out (LEM+IMU) | NC (RR/CSM)	
+113	_PILO	Out	To Read Counter	213	F_P+HI	Out (LEM+IMU) | NC (RR/CSM)	
 114	___I2L	In	I2 from Digital Mode Module	214		Spare	
 115	_JMPDN	Out	Down level DL TP	215	_INHDA	Out	Inhibit DAC to D/A Module
 116	___I2H	In	I2 from Digital Mode Module	216	_JMPDN	In	Down
 117	_JMPUP	Out	Up level UL TP	217	_JMPUP	In	Up
 118	___I3H	In	I3 from Digital Mode Module	218		Spare	
-119	___I3L	In	I3 from Digital Mode Module	219	_DEL0H | 	In (LEM+IMU) | NC (RR/CSM)	
-120	_TPAD | 	Out (IMU/RR) | NC (OPTX)		220		Spare	
+119	___I3L	In	I3 from Digital Mode Module	219	_DEL0H	In (LEM+IMU) | NC (RR/CSM)	
+120	_TPAD	Out (IMU/RR) | NC (OPTX)		220		Spare	
 121	_-DAPL	Out	D/A polarity to D/A Converter	221	F_P-HI	Out (LEM+IMU) | NC (RR/CSM)	
 122	_LCECL	Out	To D/A Converter	222		Spare	
 123	_+DAPL	Out	D/A polarity to D/A Converter	223		Spare	
@@ -27,11 +27,11 @@
 127	_TLF1L	In	Fine ternary level F1 from MSA module	227		Spare	
 128	_TLF1H	In	Fine ternary level F1 from MSA module	228	_DD7	Out	
 129	_JMPZD	In	Zero detect	229		Spare	
-130	_TLC1H | 	In (IMU/RR) | NC (OPTX)	Coarse ternary level from Coarse module | 	230		Spare	
-131	_TLC1L | 	In (IMU/RR) | NC (OPTX)	Coarse ternary level from Coarse module | 	231		Spare	
+130	_TLC1H	In (IMU/RR) | NC (OPTX)	Coarse ternary level from Coarse module	230		Spare	
+131	_TLC1L	In (IMU/RR) | NC (OPTX)	Coarse ternary level from Coarse module	231		Spare	
 132		Spare		232	_DD6	Out	
 133	_JMPPE	Out	PE TP	233		Spare	
-134	_TPC1 | 	Out (IMU/RR) | NC (OPTX)		234	_JMPSD	Out	Saturation detect
+134	_TPC1	Out (IMU/RR) | NC (OPTX)		234	_JMPSD	Out	Saturation detect
 135	_TPF1	Out		235		Spare	
 136	+4VLO	In	+4 VDC return	236	+4VLO	In	+4 VDC return
 137	_EEC	In		237	_JMPPE	In	Input error counter pulses PE

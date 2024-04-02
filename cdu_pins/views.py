@@ -52,10 +52,10 @@ def get_pin_classes(tray):
     for conn, pin, net, iotype, desc in c.execute('SELECT CONNECTOR, PIN, NET, IOTYPE, DESCRIPTION FROM PINS WHERE CONNECTOR LIKE ?', (tray+'%',)):
         if iotype == 'UNK' or 'UNK' in desc:
             pin_class = "UNK"
-        elif net in ['_CHASS', '+4VLO'] or net.endswith('SIGGR') or ("shield" in desc.lower()):
-            pin_class = '+4VLO'
         elif iotype in ['NC', 'SPARE', 'BP']:
             pin_class = iotype
+        elif net in ['_CHASS', '+4VLO'] or net.endswith('SIGGR') or net.endswith('INPTL') or ("shield" in desc.lower()):
+            pin_class = '+4VLO'
         elif net in ['+4VHI']:
             pin_class = net
         elif '+28' in net:
